@@ -402,7 +402,8 @@ img{
 .answer1{
     color: var(--white-color);
     margin-left: 50px;
-    padding: .25rem .5rem;
+    margin-right: 50px;
+    padding: .25rem .25rem;
     display: inline-block;
     font-size: var(--normal-font-size);
     margin-right: var(--mb-2);
@@ -420,7 +421,8 @@ img{
 .answer2{
     color: var(--white-color);
     margin-left: 50px;
-    padding: .25rem .5rem;
+    margin-right: 50px;
+    padding: .25rem .25rem;
     display: inline-block;
     font-size: var(--normal-font-size);
     margin-right: var(--mb-2);
@@ -438,7 +440,8 @@ img{
 .answer3{
     color: var(--white-color);
     margin-left: 50px;
-    padding: .25rem .5rem;
+    margin-right: 50px;
+    padding: .25rem .25rem;
     display: inline-block;
     font-size: var(--normal-font-size);
     margin-right: var(--mb-2);
@@ -661,7 +664,8 @@ img{
 .answer{
     color: var(--white-color);
     margin-left: 50px;
-    padding: .25rem .5rem;
+    margin-right: 50px;
+    padding: .25rem .25rem;
     display: inline-block;
     font-size: var(--normal-font-size);
     margin-right: var(--mb-2);
@@ -678,19 +682,23 @@ img{
 
 .answer:focus{
     background-color: green;
+    color: var(--white-color);
 }
 
 
 .answer1:focus{
     background-color: red;
+    color: var(--white-color);
 }
 
 .answer2:focus{
     background-color: red;
+    color: var(--white-color);
 }
 
 .answer3:focus{
     background-color: red;
+    color: var(--white-color);
 }
 
 
