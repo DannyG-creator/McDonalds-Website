@@ -264,6 +264,11 @@ img{
     text-align: center;
 }
 
+.app__subtitle{
+    color: var(--first-color);
+    text-align: center;
+}
+
 .application__subtitle{
     color: var(--text-color);
     text-align: left;
