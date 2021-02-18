@@ -400,7 +400,7 @@ img{
 
 
 .answer1{
-    color: var(--white-color);
+    color: var(--text-color);
     margin-left: 50px;
     margin-right: 50px;
     padding: .25rem .25rem;
@@ -408,18 +408,20 @@ img{
     font-size: var(--normal-font-size);
     margin-right: var(--mb-2);
     margin-bottom: 5px;
-    background-color: var(--text-color);
+    background-color: none;
     border-radius: .25rem;
     display: block;
+    border: hidden;
 }
 
 .answer1:hover{
     background-color: var(--white-color);
     color: var(--text-color);
+    border: hidden;
 }
 
 .answer2{
-    color: var(--white-color);
+    color: var(--text-color);
     margin-left: 50px;
     margin-right: 50px;
     padding: .25rem .25rem;
@@ -427,18 +429,20 @@ img{
     font-size: var(--normal-font-size);
     margin-right: var(--mb-2);
     margin-bottom: 5px;
-    background-color: var(--text-color);
+    background-color: none;
     border-radius: .25rem;
     display: block;
+    border: hidden;
 }
 
 .answer2:hover{
     background-color: var(--white-color);
     color: var(--text-color);
+    border: hidden;
 }
 
 .answer3{
-    color: var(--white-color);
+    color: var(--text-color);
     margin-left: 50px;
     margin-right: 50px;
     padding: .25rem .25rem;
@@ -446,14 +450,16 @@ img{
     font-size: var(--normal-font-size);
     margin-right: var(--mb-2);
     margin-bottom: 5px;
-    background-color: var(--text-color);
+    background-color: none;
     border-radius: .25rem;
     display: block;
+    border: hidden;
 }
 
 .answer3:hover{
     background-color: var(--white-color);
     color: var(--text-color);
+    border: hidden;
 }
 
 
@@ -662,7 +668,7 @@ img{
 
 
 .answer{
-    color: var(--white-color);
+    color: var(--text-color);
     margin-left: 50px;
     margin-right: 50px;
     padding: .25rem .25rem;
@@ -670,35 +676,41 @@ img{
     font-size: var(--normal-font-size);
     margin-right: var(--mb-2);
     margin-bottom: 5px;
-    background-color: var(--text-color);
+    background-color: none;
     border-radius: .25rem;
     display: block;
+    border: hidden;
 }
 
 .answer:hover{
     background-color: var(--white-color);
     color: var(--text-color);
+    border: hidden;
 }
 
 .answer:focus{
     background-color: green;
     color: var(--white-color);
+    border: hidden;
 }
 
 
 .answer1:focus{
     background-color: red;
     color: var(--white-color);
+    border: hidden;
 }
 
 .answer2:focus{
     background-color: red;
     color: var(--white-color);
+    border: hidden;
 }
 
 .answer3:focus{
     background-color: red;
     color: var(--white-color);
+    border: hidden;
 }
 
 
