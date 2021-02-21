@@ -404,6 +404,9 @@ img{
 }
 
 
+
+
+
 .answer1{
     color: var(--text-color);
     margin-left: 50px;
@@ -699,7 +702,6 @@ img{
     color: var(--white-color);
     border: hidden;
 }
-
 
 .answer1:focus{
     background-color: red;
