@@ -15,7 +15,7 @@
     --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +32,6 @@
     }
 }
 
-/*===== Margenes =====*/
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -40,7 +39,6 @@
     --mb-4: 2rem;
 }
 
-/*===== z index =====*/
 :root{
     --z-fixed: 100;
 }
@@ -175,7 +173,6 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== HOME =====*/
 .home{
     position: relative;
     background-color: var(--first-color);
@@ -212,10 +209,6 @@ img{
     width: 506px;
     height: 443px;
 }
-
-/* ===== ABOUT =====*/
-
-
 
 .about__container{
     justify-items: center;
@@ -255,7 +248,7 @@ img{
     color: var(--first-color);
 }
 
-/* ===== SKILLS =====*/
+
 .skills__container{
     row-gap: 2rem;
 }
@@ -325,15 +318,6 @@ img{
 }
 
 
-/*.skills__name1:hover{
-    background-color: var(--white-color);
-    color: var(--text-color);
-}
-
-.skills__name2:hover{
-    background-color: var(--white-color);
-    color: var(--text-color);
-}*/
 
 .pointer{
     color: green;
@@ -474,9 +458,6 @@ img{
 
 
 
-
-
-/* ===== PORTFOLIO =====*/
 .portfolio{
     background-color: var(--white-color);
 }
@@ -512,7 +493,8 @@ img{
     color: var(--dark-color);
 }
 
-/* ===== CONTACT =====*/
+
+
 .contact__container{
     row-gap: 2rem;
 }
@@ -551,31 +533,6 @@ img{
     cursor: pointer;
 }
 
-/* ===== FOOTER=====*/
-.footer{
-    background-color: var(--dark-color);
-}
-.footer__container{
-    row-gap: 2rem;
-}
-.footer__title{
-    font-size: var(--normal-font-size);
-    color: var(--white-color);
-    margin-bottom: var(--mb-2);
-}
-.footer__link{
-    padding: .25rem 0;
-}
-.footer__link:hover{
-    color: var(--first-color);
-}
-.footer__social{
-    font-size: 1.4rem;
-    margin-right: var(--mb-1);
-}
-.footer__social:hover{
-    color: var(--first-color);
-}
 
 
 /* ===== MEDIA QUERIES =====*/
